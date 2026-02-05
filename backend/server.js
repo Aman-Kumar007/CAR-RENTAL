@@ -10,6 +10,9 @@ import authRouter from "./routes/authRoutes.js";
 import carRouter from "./routes/carRoutes.js";
 import bookingRouter from "./routes/bookingRoutes.js";
 import paymentRouter from "./routes/paymentRoutes.js";
+import dns from "node:dns/promises";
+
+dns.setServers(["8.8.8.8", "1.1.1.1"]);
 
 dotenv.config();
 const __filename = fileURLToPath(import.meta.url);

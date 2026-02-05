@@ -2,6 +2,9 @@ import mongoose from "mongoose";
 import dotenv from 'dotenv';
 dotenv.config();
 
+const { MONGO_USER, MONGO_PASS, MONGO_URI,  } = process.env;
+const uri = `mongodb+srv://amansingh20049206_db_user:AmanSDE486a@cluster0.chqvg0y.mongodb.net/CAR_RENTAL=Cluster0?retryWrites=true&w=majority`;
+
 export const connectDB = async () => {
   try {
     const uri = process.env.MONGO_URI;
