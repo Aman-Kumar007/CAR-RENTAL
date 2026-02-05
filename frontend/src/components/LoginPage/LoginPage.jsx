@@ -27,7 +27,7 @@ const LoginPage = () => {
     e.preventDefault();
     setLoading(true);
     try {
-      const base = "http://localhost:5000";
+      const base = import.meta.env.VITE_API_URL;
       const url = `${base}/api/auth/login`;
 
       console.log("Sending login request to:", url);
