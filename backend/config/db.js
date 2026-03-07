@@ -86,4 +86,3 @@ export const connectDB = async () => {
 //
 // You can now safely paste these commented steps into your code file! 😊
 
-// IF HAVE ANY QUERIES CALL ON +91 8299431275  OR EMAIL ON: hexagonsservices@gmail.com

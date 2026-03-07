@@ -129,12 +129,12 @@ const Footer = () => {
           <p>© {new Date().getFullYear()} KARZONE. All rights reserved.</p>
           <p className="mt-3 md:mt-0">
             Designed by <a 
-              href="https://hexagondigitalservices.com" 
+              href="https://amanservices.com" 
               target="_blank" 
               rel="noopener noreferrer" 
               className={styles.designerLink}
             >
-              Hexagon Digital Services
+              Aman Car Services
             </a>
           </p>
         </div>
