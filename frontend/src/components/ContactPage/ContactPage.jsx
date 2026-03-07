@@ -105,7 +105,7 @@ const ContactPage = () => {
               <div className={styles.infoItemContainer}>
                 {[
                   { icon: FaWhatsapp, label: 'WhatsApp', value: '+91 8299431275', color: 'bg-green-900/30' },
-                  { icon: FaEnvelope, label: 'Email', value: 'contact@amansingh20049206@gmail.com', color: 'bg-orange-900/30' },
+                  { icon: FaEnvelope, label: 'Email', value: 't@amansingh20049206@gmail.com', color: 'bg-orange-900/30' },
                   { icon: FaClock, label: 'Hours', value: 'Mon-Sat: 8AM-8PM', color: 'bg-orange-900/30' },
                 ].map((info, i) => (
                   <div 
